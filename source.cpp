@@ -15,5 +15,9 @@ int main()
     Obj.insertAtHead(111);
     cout << "Display" << endl;
     Obj.display();
+	cout<<"Deleted value: "<<Obj.deleteFromHead(99)<<endl;
+	Obj.display();
+
+	system("pause");
     return 0;
 }
